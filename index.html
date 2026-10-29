@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>VaultBox - Vault Modular configurator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">&#9638;</span> VaultBox <small>Vault Modular configurator</small></div>
+  <nav class="crumbs" id="crumbs" aria-label="progress"></nav>
+  <button class="pill" id="projBtn" type="button">Project <b id="projCount">0</b></button>
+</header>
+
+<main class="layout">
+  <section class="main" id="main" aria-live="polite"></section>
+  <aside class="side" id="side">
+    <figure class="hero">
+      <img id="heroImg" alt="" src="">
+      <figcaption id="heroCap">Pick a vault to begin</figcaption>
+    </figure>
+    <div class="summary" id="summary"></div>
+  </aside>
+</main>
+
+<div class="drawer" id="projDrawer" hidden>
+  <div class="drawer-inner">
+    <button class="close" id="projClose" type="button" aria-label="Close">&times;</button>
+    <h2>Project</h2>
+    <div id="projList"></div>
+    <label class="field">Project name
+      <input id="projName" type="text" maxlength="80" placeholder="e.g. Workshop wall tower" autocomplete="off">
+    </label>
+    <div class="row">
+      <button class="btn primary" id="buildBtn" type="button">Build</button>
+      <button class="btn" id="buildFolderBtn" type="button" hidden>Build to a folder&hellip;</button>
+    </div>
+    <p class="hint" id="buildHint"></p>
+    <div class="progress" id="buildProg" hidden><div id="buildBar"></div></div>
+    <pre class="log" id="buildLog" hidden></pre>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

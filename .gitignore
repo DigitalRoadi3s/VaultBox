@@ -1,0 +1,8 @@
+# Paid USSA Vault Modular product files and anything derived from them. Never commit.
+/parts/
+/assets/thumbs/
+/assets/manual/
+/data/catalog.json
+tools/thumbs_errors.log
+.DS_Store
+__pycache__/
