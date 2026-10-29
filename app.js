@@ -118,7 +118,7 @@ const vaultName = d => { const v = variantOf(d.vid); return v.family + ' ' + (v.
 function setImg(img, urls) {
   const list = urls.filter(Boolean);
   let i = 0;
-  const next = () => { if (i < list.length) img.src = list[i++]; else { img.removeAttribute('src'); img.style.visibility = 'hidden'; } };
+  const next = () => { if (i < list.length) img.src = list[i++]; else { img.removeAttribute('src'); img.style.visibility = 'hidden'; if (img.parentElement) img.parentElement.classList.add('noimg'); } };
   img.style.visibility = 'visible';
   img.onerror = next;
   next();
@@ -214,7 +214,7 @@ function renderStep(s, d) {
     for (const c of visChoices(s, d.answers)) {
       const imgs = choiceImgs(c);
       const im = h('div', { class: 'im' });
-      if (imgs.length) { const i = h('img', { alt: '', loading: 'lazy' }); setImg(i, imgs); im.append(i); } else im.append(h('span', { class: 'ph' }, c.id === 'none' ? '\u2205' : '\u25A3'));
+      if (imgs.length) { const i = h('img', { alt: '' }); setImg(i, imgs); im.append(i); } else im.append(h('span', { class: 'ph' }, c.id === 'none' ? '\u2205' : '\u25A3'));
       const sel = d.answers[s.id] === c.id;
       const nfiles = c.files.length;
       cards.append(h('button', {
@@ -235,7 +235,7 @@ function renderStep(s, d) {
   } else if (s.kind === 'fixed') {
     const l = h('div', { class: 'fixedlist' });
     s.files.forEach(f => {
-      const i = h('img', { alt: '', loading: 'lazy' });
+      const i = h('img', { alt: '' });
       setImg(i, [thumbUrl(f.p)]);
       l.append(h('div', { class: 'fx', onmouseenter: () => setHero([thumbUrl(f.p)], f.l) }, h('div', { class: 'im' }, i), h('div', { class: 'tx' }, f.l, f.n && h('span', {}, f.n), f.q != null && h('span', {}, 'x' + f.q))));
     });

@@ -92,3 +92,5 @@ input:focus{outline:2px solid var(--acc2);border-color:var(--acc)}
   .cards{grid-template-columns:repeat(2,1fr)}
   .top{padding:8px 10px}
 }
+
+.im.noimg{position:relative}.im.noimg::after{content:'no preview';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:12px}

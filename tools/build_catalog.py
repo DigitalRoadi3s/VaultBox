@@ -336,16 +336,18 @@ def make_drawer(prefix, code, famroot):
                   "choices": inter + gb + [choice("gridwithdiv", "Gridfinity base + grid dividers", [], img="interior_grid_dividers",
                                                    sub="Pick a baseplate and divider set below", thumb=False)] if bases else inter})
     if bases:
+        bg = [sorted(g) for g in groups(bases).values()]
+        plain_i = next((i for i, g in enumerate(bg) if not re.search(r"handle", stem(g[0]), re.I) or re.search(r"no[_ ]handle", stem(g[0]), re.I)), 0)
         steps.append({"id": "gridbase", "title": "Gridfinity baseplate", "kind": "radio",
-                      "choices": [choice("g%i" % i, label(p), [F(p, 1)], img="interior_gridfinity_base_drawer") for i, p in enumerate(bases)],
+                      "choices": [choice("g%i" % i, re.sub(r"\s*Part \d", "", label(g[0])) + (" (2 parts)" if len(g) > 1 else ""), [F(p, 1) for p in g], img="interior_gridfinity_base_drawer", thumb=g[0], default=(i == plain_i), sub=("Plain, no handles" if i == plain_i else None)) for i, g in enumerate(bg)],
                       "when": {"interior": ["gridwithdiv"]}})
         # drop the per-baseplate choices from the main interior step (baseplate chosen in its own step)
-        steps[1]["choices"] = inter + [choice("gridbase", "Gridfinity baseplate (no dividers)", [], img="interior_gridfinity_base_drawer", sub="Pick a baseplate variant below", thumb=False),
-                                       choice("gridwithdiv", "Gridfinity baseplate + grid dividers", [], img="interior_grid_dividers", sub="Pick baseplate and divider heights below", thumb=False)]
+        steps[1]["choices"] = inter + [choice("gridbase", "Gridfinity baseplate (no dividers)", [], img="interior_gridfinity_base_drawer", sub="Baseplate included; choose its handle variant below", thumb=False),
+                                       choice("gridwithdiv", "Gridfinity baseplate + grid dividers", [], img="interior_grid_dividers", sub="Baseplate included (plain preselected) plus a divider set", thumb=False)]
         steps.pop(2)
         steps.append({"id": "gridbase", "title": "Gridfinity baseplate", "kind": "radio",
-                      "help": "Plain, 1 handle or 2 handles (file names).",
-                      "choices": [choice("g%i" % i, label(p), [F(p, 1)], img="interior_gridfinity_base_drawer") for i, p in enumerate(bases)],
+                      "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+                      "choices": [choice("g%i" % i, re.sub(r"\s*Part \d", "", label(g[0])) + (" (2 parts)" if len(g) > 1 else ""), [F(p, 1) for p in g], img="interior_gridfinity_base_drawer", thumb=g[0], default=(i == plain_i), sub=("Plain, no handles" if i == plain_i else None)) for i, g in enumerate(bg)],
                       "when": {"interior": ["gridbase", "gridwithdiv"]}})
         divchoices = []
         for hh, fl in gd:

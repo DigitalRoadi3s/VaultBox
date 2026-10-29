@@ -94,7 +94,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -102,7 +102,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -112,7 +112,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -124,7 +124,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -136,7 +139,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate_With 1 Handle.stl"
       },
       {
        "id": "g2",
@@ -148,7 +152,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -1855,7 +1860,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -1863,7 +1868,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -1873,7 +1878,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -1885,7 +1890,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -1897,7 +1905,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate_With 1 Handle.stl"
       },
       {
        "id": "g2",
@@ -1909,7 +1918,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -3616,7 +3626,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -3624,7 +3634,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -3634,7 +3644,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -3646,7 +3656,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -3658,7 +3671,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate_With 1 Handle.stl"
       },
       {
        "id": "g2",
@@ -3670,7 +3684,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -5377,7 +5392,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -5385,7 +5400,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -5395,7 +5410,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -5407,7 +5422,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -5419,7 +5437,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate_With 1 Handle.stl"
       },
       {
        "id": "g2",
@@ -5431,7 +5450,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -7169,7 +7189,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -7177,7 +7197,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -7187,7 +7207,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -7199,7 +7219,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -7211,7 +7234,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate_With 1 Handle.stl"
       },
       {
        "id": "g2",
@@ -7223,7 +7247,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -8961,7 +8986,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -8969,7 +8994,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -8979,7 +9004,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -8991,7 +9016,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -9003,7 +9031,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -10705,7 +10734,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -10713,7 +10742,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -10723,7 +10752,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -10735,7 +10764,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -10747,7 +10779,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate_With 2 Handles.stl"
       },
       {
        "id": "g2",
@@ -10759,7 +10792,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Gridfinity Baseplate 2_Handles.stl"
       },
       {
        "id": "g3",
@@ -10771,7 +10805,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Gridfinity Baseplate No_Handles.stl"
       }
      ],
      "when": {
@@ -12473,7 +12508,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -12481,7 +12516,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -12491,7 +12526,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -12503,7 +12538,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -12515,7 +12553,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -14217,7 +14256,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -14225,7 +14264,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -14235,7 +14274,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -14247,7 +14286,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -14259,7 +14301,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -15992,7 +16035,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -16000,7 +16043,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -16010,7 +16053,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -16022,7 +16065,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -16034,7 +16080,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate_With 2 Handles.stl"
       }
      ],
      "when": {
@@ -17767,7 +17814,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -17775,7 +17822,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -17785,7 +17832,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -17797,7 +17844,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -19538,7 +19588,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -19546,7 +19596,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -19556,7 +19606,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -19568,7 +19618,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -19580,7 +19633,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Gridfinity Baseplate 2_Handles.stl"
       }
      ],
      "when": {
@@ -21321,7 +21375,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -21329,7 +21383,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -21339,7 +21393,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -21351,7 +21405,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -23092,7 +23149,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -23100,7 +23157,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -23110,7 +23167,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -23122,7 +23179,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -24894,7 +24954,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -24902,7 +24962,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -24912,7 +24972,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -24924,7 +24984,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -26696,7 +26759,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -26704,7 +26767,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -26714,7 +26777,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -26726,7 +26789,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -28485,7 +28551,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -28493,7 +28559,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -28503,7 +28569,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -28515,7 +28581,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "default": true
       },
       {
        "id": "g1",
@@ -28527,7 +28596,8 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Gridfinity Baseplate 2_Handles.stl"
       }
      ],
      "when": {
@@ -30286,7 +30356,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -30294,7 +30364,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -30304,7 +30374,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -30316,7 +30386,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -32075,7 +32148,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -32083,7 +32156,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -32093,7 +32166,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -32105,7 +32178,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -33895,7 +33971,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -33903,7 +33979,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -33913,7 +33989,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -33925,7 +34001,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -35699,7 +35778,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -35707,7 +35786,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -35717,7 +35796,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -35729,7 +35808,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -37169,7 +37251,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -37177,7 +37259,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -37187,7 +37269,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -37199,7 +37281,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -38639,7 +38724,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -38647,7 +38732,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -38657,7 +38742,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -38669,7 +38754,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -40109,7 +40197,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -40117,7 +40205,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -40127,31 +40215,27 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
-       "label": "XL6 Baseplate Part 1",
+       "label": "XL6 Baseplate (2 parts)",
        "files": [
         {
          "p": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
          "l": "XL6 Baseplate Part 1",
          "q": 1
-        }
-       ],
-       "img": "interior_gridfinity_base_drawer"
-      },
-      {
-       "id": "g1",
-       "label": "XL6 Baseplate Part 2",
-       "files": [
+        },
         {
          "p": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 2.stl",
          "l": "XL6 Baseplate Part 2",
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "default": true
       }
      ],
      "when": {
@@ -41621,7 +41705,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -41629,7 +41713,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -41639,31 +41723,27 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
-       "label": "XL7 Baseplate Part 1",
+       "label": "XL7 Baseplate (2 parts)",
        "files": [
         {
          "p": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
          "l": "XL7 Baseplate Part 1",
          "q": 1
-        }
-       ],
-       "img": "interior_gridfinity_base_drawer"
-      },
-      {
-       "id": "g1",
-       "label": "XL7 Baseplate Part 2",
-       "files": [
+        },
         {
          "p": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 2.stl",
          "l": "XL7 Baseplate Part 2",
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "default": true
       }
      ],
      "when": {
@@ -43133,7 +43213,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -43141,7 +43221,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -43151,7 +43231,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -43163,7 +43243,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -44621,7 +44704,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -44629,7 +44712,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -44639,7 +44722,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -44651,7 +44734,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -46109,7 +46195,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -46117,7 +46203,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -46127,7 +46213,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
@@ -46139,7 +46225,10 @@
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "default": true
       }
      ],
      "when": {
@@ -47597,7 +47686,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -47605,7 +47694,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -47615,31 +47704,27 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
-       "label": "XL6 Baseplate Part 1",
+       "label": "XL6 Baseplate (2 parts)",
        "files": [
         {
          "p": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
          "l": "XL6 Baseplate Part 1",
          "q": 1
-        }
-       ],
-       "img": "interior_gridfinity_base_drawer"
-      },
-      {
-       "id": "g1",
-       "label": "XL6 Baseplate Part 2",
-       "files": [
+        },
         {
          "p": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 2.stl",
          "l": "XL6 Baseplate Part 2",
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "default": true
       }
      ],
      "when": {
@@ -49127,7 +49212,7 @@
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Pick a baseplate variant below",
+       "sub": "Baseplate included; choose its handle variant below",
        "img": "interior_gridfinity_base_drawer",
        "thumb": false
       },
@@ -49135,7 +49220,7 @@
        "id": "gridwithdiv",
        "label": "Gridfinity baseplate + grid dividers",
        "files": [],
-       "sub": "Pick baseplate and divider heights below",
+       "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
        "thumb": false
       }
@@ -49145,31 +49230,27 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "Plain, 1 handle or 2 handles (file names).",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
      "choices": [
       {
        "id": "g0",
-       "label": "XL7 Baseplate Part 1",
+       "label": "XL7 Baseplate (2 parts)",
        "files": [
         {
          "p": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
          "l": "XL7 Baseplate Part 1",
          "q": 1
-        }
-       ],
-       "img": "interior_gridfinity_base_drawer"
-      },
-      {
-       "id": "g1",
-       "label": "XL7 Baseplate Part 2",
-       "files": [
+        },
         {
          "p": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 2.stl",
          "l": "XL7 Baseplate Part 2",
          "q": 1
         }
        ],
-       "img": "interior_gridfinity_base_drawer"
+       "sub": "Plain, no handles",
+       "img": "interior_gridfinity_base_drawer",
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "default": true
       }
      ],
      "when": {
