@@ -476,7 +476,7 @@ async function boot() {
     if (!r.ok) throw new Error(r.status);
     CAT = await r.json();
   } catch (e) {
-    $('#main').replaceChildren(h('div', { class: 'note' }, 'Could not load data/catalog.json. Open this page through a web server, not file://. From the VaultBox folder run: ./serve.sh and open http://localhost:8765/'));
+    $('#main').replaceChildren(h('div', { class: 'note' }, 'Could not load data/catalog.json. Open this page through the container, not file://. Run: docker compose up -d --build and open http://localhost:8765/'));
     return;
   }
   load();
