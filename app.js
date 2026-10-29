@@ -123,9 +123,10 @@ function setImg(img, urls) {
   img.onerror = next;
   next();
 }
-function choiceImgs(c) {
+function choiceImgs(c, ans) {
   const out = [];
-  if (c.img) out.push(manualUrl(c.img));
+  const skipManual = ans && c.noImgModes && c.noImgModes.includes(ans.mode);
+  if (c.img && !skipManual) out.push(manualUrl(c.img));
   if (c.thumb) out.push(thumbUrl(c.thumb));
   else if (c.thumb !== false && c.files && c.files[0]) out.push(thumbUrl(c.files[0].p));
   return out;
@@ -212,7 +213,7 @@ function renderStep(s, d) {
   if (s.kind === 'radio') {
     const cards = h('div', { class: 'cards' });
     for (const c of visChoices(s, d.answers)) {
-      const imgs = choiceImgs(c);
+      const imgs = choiceImgs(c, d.answers);
       const im = h('div', { class: 'im' });
       if (imgs.length) { const i = h('img', { alt: '' }); setImg(i, imgs); im.append(i); } else im.append(h('span', { class: 'ph' }, c.id === 'none' ? '\u2205' : '\u25A3'));
       const sel = d.answers[s.id] === c.id;

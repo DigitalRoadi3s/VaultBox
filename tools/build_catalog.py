@@ -342,7 +342,7 @@ def make_drawer(prefix, code, famroot):
                       "choices": [choice("g%i" % i, re.sub(r"\s*Part \d", "", label(g[0])) + (" (2 parts)" if len(g) > 1 else ""), [F(p, 1) for p in g], img="interior_gridfinity_base_drawer", thumb=g[0], default=(i == plain_i), sub=("Plain, no handles" if i == plain_i else None)) for i, g in enumerate(bg)],
                       "when": {"interior": ["gridwithdiv"]}})
         # drop the per-baseplate choices from the main interior step (baseplate chosen in its own step)
-        steps[1]["choices"] = inter + [choice("gridbase", "Gridfinity baseplate (no dividers)", [], img="interior_gridfinity_base_drawer", sub="Baseplate included; choose its handle variant below", thumb=False),
+        steps[1]["choices"] = inter + [choice("gridbase", "Gridfinity baseplate (no dividers)", [], img="interior_gridfinity_base_drawer", sub="Baseplate included (plain preselected)", thumb=False),
                                        choice("gridwithdiv", "Gridfinity baseplate + grid dividers", [], img="interior_grid_dividers", sub="Baseplate included (plain preselected) plus a divider set", thumb=False)]
         steps.pop(2)
         steps.append({"id": "gridbase", "title": "Gridfinity baseplate", "kind": "radio",
@@ -446,6 +446,24 @@ def make_drawer(prefix, code, famroot):
                       "help": "Manual p.20: optional manual supports for a more stable print of tall prints; remove before assembly.",
                       "choices": [choice("none", "No manual supports", [], default=True, thumb=False),
                                   choice("sup", "Manual supports x%d" % depth, [F(ms[0], None, "qty not in manual")], thumb=ms[0])]})
+    # Under-table: no roof handle / Gridfinity top, so the manual picture (which shows a Gridfinity
+    # roof with a top handle on the drawer) is misleading, and handle baseplate variants are hidden.
+    for st in steps:
+        if st["id"] in ("interior", "gridbase", "griddiv"):
+            for c in st["choices"]:
+                if c.get("img"):
+                    c["noImgModes"] = ["undertable"]
+        if st["id"] == "interior" and boxes:
+            for c in st["choices"]:
+                if c["id"] == "empty" and c.get("thumb") is False:
+                    c["thumb"] = boxes[0]
+                if c["id"] in ("gridbase", "gridwithdiv") and bases and c.get("thumb") is False:
+                    c["thumb"] = bases[0]
+        if st["id"] == "gridbase":
+            for c in st["choices"]:
+                if re.search(r"handle", c["label"], re.I) and not re.search(r"no[_ ]handle", c["label"], re.I):
+                    c["when"] = {"mode": ["mounted", "stationary", "mobile", "portable"]}
+            st["help"] = st["help"] + " Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered."
     steps += mode_steps(letter, depth, heights, any("utm" == c["id"] for c in rc), "drawer")
     return {"id": "D-" + code, "type": "drawer", "family": code, "letter": letter, "depth": depth, "sq": sq,
             "heights": heights, "steps": steps, "note": note, "sizeImg": "size_" + letter,

@@ -87,16 +87,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/01. S Families/S3/Boxes/S3 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -104,7 +110,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -112,7 +121,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -127,7 +136,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -140,7 +152,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate_With 1 Handle.stl"
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate_With 1 Handle.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g2",
@@ -153,7 +176,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -315,7 +349,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -464,7 +501,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -613,7 +653,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -1853,16 +1896,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/01. S Families/S4/Boxes/S4 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -1870,7 +1919,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -1878,7 +1930,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -1893,7 +1945,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -1906,7 +1961,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate_With 1 Handle.stl"
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate_With 1 Handle.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g2",
@@ -1919,7 +1985,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -2081,7 +2158,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -2230,7 +2310,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -2379,7 +2462,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -3619,16 +3705,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/01. S Families/S5/Boxes/S5 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -3636,7 +3728,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -3644,7 +3739,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -3659,7 +3754,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -3672,7 +3770,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate_With 1 Handle.stl"
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate_With 1 Handle.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g2",
@@ -3685,7 +3794,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -3847,7 +3967,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -3996,7 +4119,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -4145,7 +4271,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -5385,16 +5514,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/01. S Families/S6/Boxes/S6 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -5402,7 +5537,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -5410,7 +5548,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -5425,7 +5563,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -5438,7 +5579,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate_With 1 Handle.stl"
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate_With 1 Handle.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g2",
@@ -5451,7 +5603,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -5613,7 +5776,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -5762,7 +5928,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -5911,7 +6080,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -7182,16 +7354,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/01. S Families/S7/Boxes/S7 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -7199,7 +7377,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -7207,7 +7388,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -7222,7 +7403,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -7235,7 +7419,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate_With 1 Handle.stl"
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate_With 1 Handle.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g2",
@@ -7248,7 +7443,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -7410,7 +7616,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -7559,7 +7768,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -7708,7 +7920,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -8979,16 +9194,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/02. M Families/M3/Boxes/M3 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -8996,7 +9217,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -9004,7 +9228,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -9019,7 +9243,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -9032,7 +9259,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -9194,7 +9432,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -9343,7 +9584,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -9492,7 +9736,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -10727,16 +10974,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/02. M Families/M4/Boxes/M4 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -10744,7 +10997,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -10752,7 +11008,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -10767,7 +11023,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -10780,7 +11039,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g2",
@@ -10793,7 +11063,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Gridfinity Baseplate 2_Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Gridfinity Baseplate 2_Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       },
       {
        "id": "g3",
@@ -10806,7 +11087,10 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Gridfinity Baseplate No_Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Gridfinity Baseplate No_Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -10968,7 +11252,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -11117,7 +11404,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -11266,7 +11556,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -12501,16 +12794,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/02. M Families/M5/Boxes/M5 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -12518,7 +12817,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -12526,7 +12828,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -12541,7 +12843,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -12554,7 +12859,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -12716,7 +13032,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -12865,7 +13184,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -13014,7 +13336,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -14249,16 +14574,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/02. M Families/M6/Boxes/M6 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -14266,7 +14597,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -14274,7 +14608,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -14289,7 +14623,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -14302,7 +14639,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -14464,7 +14812,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -14613,7 +14964,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -14762,7 +15116,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -16028,16 +16385,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/02. M Families/M7/Boxes/M7 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -16045,7 +16408,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -16053,7 +16419,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -16068,7 +16434,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -16081,7 +16450,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate_With 2 Handles.stl"
+       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate_With 2 Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -16243,7 +16623,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -16392,7 +16775,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -16541,7 +16927,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -17807,16 +18196,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L3/Boxes/L3 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -17824,7 +18219,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -17832,7 +18230,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -17847,7 +18245,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -18009,7 +18410,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -18158,7 +18562,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -18307,7 +18714,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -19581,16 +19991,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L4/Boxes/L4 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -19598,7 +20014,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -19606,7 +20025,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -19621,7 +20040,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -19634,7 +20056,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Gridfinity Baseplate 2_Handles.stl"
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Gridfinity Baseplate 2_Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -19796,7 +20229,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -19945,7 +20381,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -20094,7 +20533,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -21368,16 +21810,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L5/Boxes/L5 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -21385,7 +21833,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -21393,7 +21844,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -21408,7 +21859,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -21570,7 +22024,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -21719,7 +22176,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -21868,7 +22328,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -23142,16 +23605,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L6/Boxes/L6 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -23159,7 +23628,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -23167,7 +23639,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -23182,7 +23654,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -23344,7 +23819,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -23493,7 +23971,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -23642,7 +24123,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -24947,16 +25431,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L7/Boxes/L7 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -24964,7 +25454,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -24972,7 +25465,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -24987,7 +25480,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -25149,7 +25645,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -25298,7 +25797,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -25447,7 +25949,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -26752,16 +27257,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L3/Boxes/L3 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -26769,7 +27280,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -26777,7 +27291,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -26792,7 +27306,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -26954,7 +27471,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -27103,7 +27623,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -27252,7 +27775,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -28544,16 +29070,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L4/Boxes/L4 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -28561,7 +29093,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -28569,7 +29104,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -28584,7 +29119,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "g1",
@@ -28597,7 +29135,18 @@
         }
        ],
        "img": "interior_gridfinity_base_drawer",
-       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Gridfinity Baseplate 2_Handles.stl"
+       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Gridfinity Baseplate 2_Handles.stl",
+       "noImgModes": [
+        "undertable"
+       ],
+       "when": {
+        "mode": [
+         "mounted",
+         "stationary",
+         "mobile",
+         "portable"
+        ]
+       }
       }
      ],
      "when": {
@@ -28759,7 +29308,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -28908,7 +29460,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -29057,7 +29612,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -30349,16 +30907,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L5/Boxes/L5 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -30366,7 +30930,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -30374,7 +30941,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -30389,7 +30956,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -30551,7 +31121,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -30700,7 +31273,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -30849,7 +31425,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -32141,16 +32720,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L6/Boxes/L6 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -32158,7 +32743,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -32166,7 +32754,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -32181,7 +32769,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -32343,7 +32934,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -32492,7 +33086,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -32641,7 +33238,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -33964,16 +34564,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/03. L Families/L7/Boxes/L7 Box 1F.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -33981,7 +34587,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -33989,7 +34598,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -34004,7 +34613,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -34166,7 +34778,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -34315,7 +34930,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -34464,7 +35082,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -35771,16 +36392,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Boxes/XL3 Back Panel.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -35788,7 +36415,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -35796,7 +36426,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -35811,7 +36441,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -35973,7 +36606,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -36122,7 +36758,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -36271,7 +36910,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -37244,16 +37886,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Boxes/XL4 Back Panel.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -37261,7 +37909,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -37269,7 +37920,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -37284,7 +37935,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -37446,7 +38100,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -37595,7 +38252,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -37744,7 +38404,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -38717,16 +39380,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Boxes/XL5 Back Panel.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -38734,7 +39403,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -38742,7 +39414,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -38757,7 +39429,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -38919,7 +39594,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -39068,7 +39746,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -39217,7 +39898,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -40190,16 +40874,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Boxes/XL6 Box 1F Part 1.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -40207,7 +40897,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -40215,7 +40908,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -40235,7 +40928,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -40397,7 +41093,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -40546,7 +41245,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -40695,7 +41397,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -41698,16 +42403,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Boxes/XL7 Box 1F Part 1.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -41715,7 +42426,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -41723,7 +42437,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -41743,7 +42457,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -41905,7 +42622,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -42054,7 +42774,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -42203,7 +42926,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -43206,16 +43932,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Boxes/XL3 Back Panel.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -43223,7 +43955,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -43231,7 +43966,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -43246,7 +43981,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -43408,7 +44146,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -43557,7 +44298,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -43706,7 +44450,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -44697,16 +45444,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Boxes/XL4 Back Panel.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -44714,7 +45467,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -44722,7 +45478,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -44737,7 +45493,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -44899,7 +45658,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -45048,7 +45810,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -45197,7 +45962,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -46188,16 +46956,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Boxes/XL5 Back Panel.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -46205,7 +46979,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -46213,7 +46990,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -46228,7 +47005,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -46390,7 +47170,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -46539,7 +47322,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -46688,7 +47474,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -47679,16 +48468,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Boxes/XL6 Box 1F Part 1.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -47696,7 +48491,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -47704,7 +48502,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -47724,7 +48522,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -47886,7 +48687,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -48035,7 +48839,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -48184,7 +48991,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -49205,16 +50015,22 @@
        "files": [],
        "sub": "Plain box, no insert",
        "img": "interior_empty_drawer",
-       "thumb": false,
-       "default": true
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Boxes/XL7 Box 1F Part 1.stl",
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridbase",
        "label": "Gridfinity baseplate (no dividers)",
        "files": [],
-       "sub": "Baseplate included; choose its handle variant below",
+       "sub": "Baseplate included (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "gridwithdiv",
@@ -49222,7 +50038,10 @@
        "files": [],
        "sub": "Baseplate included (plain preselected) plus a divider set",
        "img": "interior_grid_dividers",
-       "thumb": false
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ]
     },
@@ -49230,7 +50049,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
+     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -49250,7 +50069,10 @@
        "sub": "Plain, no handles",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
-       "default": true
+       "default": true,
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
@@ -49412,7 +50234,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d34_5mm",
@@ -49561,7 +50386,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/34.5MM TALL (full height of 1F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       },
       {
        "id": "d82_5mm",
@@ -49710,7 +50538,10 @@
        ],
        "sub": "28 pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl"
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/82.5MM TALL (full height of 2F drawers)/10-S, x3.stl",
+       "noImgModes": [
+        "undertable"
+       ]
       }
      ],
      "when": {
