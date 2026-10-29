@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
 <title>VaultBox - Vault Modular configurator</title>
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
 <header class="top">
@@ -35,14 +35,16 @@
     </label>
     <div class="row">
       <button class="btn primary" id="buildBtn" type="button">Build</button>
+      <button class="btn" id="newProjBtn" type="button">New project</button>
       <button class="btn" id="buildFolderBtn" type="button" hidden>Build to a folder&hellip;</button>
     </div>
     <p class="hint" id="buildHint"></p>
     <div class="progress" id="buildProg" hidden><div id="buildBar"></div></div>
     <pre class="log" id="buildLog" hidden></pre>
+    <div class="done" id="doneBox" hidden><span>Build complete. Keep this project to tweak and rebuild, or start fresh.</span> <button class="btn primary" id="doneNewBtn" type="button">Start new project</button></div>
   </div>
 </div>
 
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

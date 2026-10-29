@@ -98,3 +98,6 @@ input:focus{outline:2px solid var(--acc2);border-color:var(--acc)}
 .fx{position:relative;border-color:#2c4a36}
 .fx .auto{position:absolute;top:6px;left:6px;z-index:1;background:rgba(76,195,138,.16);color:var(--ok);border:1px solid rgba(76,195,138,.5);border-radius:99px;padding:1px 8px;font-size:10px;letter-spacing:.02em}
 .fx .tx b{display:block;font-weight:600}
+
+.done{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:12px;padding:10px 12px;border:1px solid rgba(76,195,138,.5);background:rgba(76,195,138,.1);border-radius:10px;color:var(--ok);font-size:13px}
+.done[hidden]{display:none}

@@ -159,7 +159,7 @@ function renderPicker(main) {
   main.append(h('h2', {}, 'Choose a vault'),
     h('p', { class: 'lead' }, '50 size variants: ' + CAT.variants.filter(v => v.type === 'drawer').length + ' drawer and ' + CAT.variants.filter(v => v.type === 'sustainer').length + ' sustainer families. The number is the depth in Gridfinity units (3 to 7).'));
   if (state.project.vaults.length) {
-    main.append(h('div', { class: 'note' }, 'Project in progress: ' + state.project.vaults.length + ' vault(s). Pick another to add, or open Project to build.'));
+    main.append(h('div', { class: 'note' }, (state.project.built ? 'Last project was built: ' : 'Project in progress: ') + state.project.vaults.length + ' vault(s). Pick another to add, or open Project. ', h('button', { class: 'btn', type: 'button', style: 'margin-left:8px;padding:3px 10px', onclick: () => newProject() }, 'New project')));
   }
   for (const type of ['drawer', 'sustainer']) {
     const g = h('div', { class: 'group' }, h('h3', {}, type === 'drawer' ? 'Drawers (slide-out boxes)' : 'Sustainers (hinged lid)'));
@@ -273,6 +273,8 @@ function addDraft(finish) {
   const d = state.draft;
   if (!isComplete(d)) return;
   state.project.vaults.push(JSON.parse(JSON.stringify(d)));
+  state.project.built = false;
+  $('#doneBox').hidden = true;
   state.draft = null;
   save();
   render();
@@ -290,9 +292,9 @@ function renderProject() {
     const r = collect(d);
     list.append(h('div', { class: 'pv' },
       h('div', { class: 'h' }, h('span', {}, pad(i + 1) + '  ' + vaultName(d)),
-        h('span', {}, h('button', { type: 'button', onclick: () => { state.project.vaults.splice(i, 1); state.draft = d; save(); closeProject(); render(); } }, 'Edit'),
-          h('button', { type: 'button', onclick: () => { state.project.vaults.splice(i + 1, 0, JSON.parse(JSON.stringify(d))); save(); render(); renderProject(); } }, 'Duplicate'),
-          h('button', { type: 'button', onclick: () => { state.project.vaults.splice(i, 1); save(); render(); renderProject(); } }, 'Remove'))),
+        h('span', {}, h('button', { type: 'button', onclick: () => { state.project.vaults.splice(i, 1); state.project.built = false; state.draft = d; save(); closeProject(); render(); } }, 'Edit'),
+          h('button', { type: 'button', onclick: () => { state.project.vaults.splice(i + 1, 0, JSON.parse(JSON.stringify(d))); state.project.built = false; save(); render(); renderProject(); } }, 'Duplicate'),
+          h('button', { type: 'button', onclick: () => { state.project.vaults.splice(i, 1); state.project.built = false; save(); render(); renderProject(); } }, 'Remove'))),
       h('div', { class: 'd' }, r.sel.map(x => x[1]).join(' / ')),
       h('div', { class: 'd' }, r.parts.length + ' printed file(s)')));
   });
@@ -302,6 +304,25 @@ function renderProject() {
   $('#buildFolderBtn').hidden = !('showDirectoryPicker' in window);
   $('#buildHint').textContent = 'Build downloads <name>.zip (a folder named after the project, with all STL files, BOM.txt and Hardware.txt) into your browser download location, normally ~/Downloads. ' +
     ('showDirectoryPicker' in window ? '"Build to a folder" lets you pick ~/Downloads and writes the folder directly, with a numeric suffix if it exists.' : '');
+}
+
+function newProject(force) {
+  const n = state.project.vaults.length;
+  if (!force && n && !state.project.built && !confirm('Discard the current project (' + n + ' vault' + (n === 1 ? '' : 's') + ') that has not been built yet and start a new one?')) return;
+  state.project = { name: '', vaults: [] };
+  state.draft = null;
+  save();
+  $('#buildLog').textContent = ''; $('#buildLog').hidden = true;
+  $('#buildProg').hidden = true; $('#buildBar').style.width = '0';
+  $('#doneBox').hidden = true;
+  closeProject();
+  render();
+  window.scrollTo(0, 0);
+}
+function buildDone(msg) {
+  state.project.built = true; save();
+  logTo(msg);
+  $('#doneBox').hidden = false;
 }
 
 /* ------------------------------------------------------------ build plan */
@@ -422,7 +443,7 @@ async function buildZip() {
     const blob = await makeZip(name, entriesFor(plan), setProg, logTo);
     const a = h('a', { href: URL.createObjectURL(blob), download: name + '.zip' });
     document.body.append(a); a.click(); a.remove();
-    logTo('Done: ' + name + '.zip (' + (blob.size / 1048576).toFixed(1) + ' MB). Check your browser downloads.');
+    buildDone('Done: ' + name + '.zip (' + (blob.size / 1048576).toFixed(1) + ' MB). Check your browser downloads.');
   } catch (e) { logTo('ERROR: ' + e.message); } finally { btn.disabled = false; }
 }
 async function buildFolder() {
@@ -444,7 +465,7 @@ async function buildFolder() {
       if (e.text != null) await w.close();
       i++; setProg(i / ents.length); logTo('wrote ' + e.out);
     }
-    logTo('Done: folder "' + folder + '" with ' + ents.length + ' files.');
+    buildDone('Done: folder "' + folder + '" with ' + ents.length + ' files.');
   } catch (e) { if (e.name !== 'AbortError') logTo('ERROR: ' + e.message); }
 }
 
@@ -464,6 +485,9 @@ async function boot() {
   $('#projDrawer').addEventListener('click', e => { if (e.target.id === 'projDrawer') closeProject(); });
   $('#buildBtn').addEventListener('click', buildZip);
   $('#buildFolderBtn').addEventListener('click', buildFolder);
+  $('#newProjBtn').addEventListener('click', () => newProject());
+  $('#doneNewBtn').addEventListener('click', () => newProject(true));
+  $('#doneBox').hidden = !state.project.built;
   $('#projName').addEventListener('input', e => { state.project.name = e.target.value; save(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeProject(); });
   render();
