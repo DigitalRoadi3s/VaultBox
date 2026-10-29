@@ -54,25 +54,27 @@ Check the copy:
 find parts -name '*.stl' | wc -l      # expect 723 for the 261020 package
 ls parts
 ```
-A different package version may have a different count. If the counts differ, run step 3 and read any "MISSING referenced files" lines.
+A different package version may have a different count. If the counts differ, run `python3 tools/build_catalog.py` and read any "MISSING referenced files" lines.
 
-## 3. Generate the catalog
+## 3. Check the catalog (already included)
+`data/catalog.json`, `assets/thumbs/` and `assets/manual/` ship with the repository, so the site works as soon as `parts/` is in place. Regenerate only if your package differs or you change the rules:
 ```
 python3 tools/build_catalog.py
 ```
 Expect `variants: 50 -> .../data/catalog.json`. Any `MISSING referenced files` lines mean a file name differs from what the rules expect; fix the copy or adjust `tools/build_catalog.py`.
 
-## 4. Generate thumbnails (recommended)
+## 4. Regenerate thumbnails (optional)
+Only needed if you want fresh renders:
 ```
 python3 -m venv .venv
 . .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python3 tools/render_thumbs.py
 ```
-This writes `assets/thumbs/` (one PNG per STL, takes a minute or two on 8 cores). It skips existing files, so it is safe to rerun. Without thumbnails the part cards show blank images.
+It writes `assets/thumbs/` (one PNG per STL, a minute or two on 8 cores) and skips files that already exist.
 
-## 5. Optional: manual images
-`assets/manual/` can hold images cropped from the manual's pages (names such as `use_mounted.png`, `roof_table.png`, `interior_flat_sustainer.png`, `size_S.png`, `type_drawers.png`). They are used on the option cards and the side panel, and they come from the paid manual, so they are not shipped. If a file is missing, the site falls back to the STL render. Create them yourself from your own PDFs if you want them.
+## 5. Manual images
+`assets/manual/` holds images cropped from the manual (`use_*`, `roof_*`, `interior_*`, `size_*`, `type_*`) and the assembly page images. Some crops are unverified automatic guesses; replace any wrong one with a file of the same name. A missing image falls back to the STL render.
 
 ## 6. Run
 ```
@@ -86,7 +88,7 @@ Pick vaults, add them to the project, open **Project**, enter a name and press *
 ## Troubleshooting
 | Symptom | Cause / fix |
 | --- | --- |
-| "Could not load data/catalog.json" | Run step 3, and serve over HTTP (step 6) |
+| "Could not load data/catalog.json" | Serve over HTTP (step 6); regenerate with step 3 if the file is missing |
 | Empty or grey part cards | Run step 4 |
 | Build fails with `fetch failed (404)` | A file in `parts/` is missing or renamed; recopy it exactly |
 | Zip build error about 4 GB | Use "Build to a folder..." |

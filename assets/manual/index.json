@@ -1,0 +1,1900 @@
+{
+ "use_stationary.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   50,
+   715,
+   460,
+   1120
+  ],
+  "label_ocr_text": "0000000 | plo",
+  "verified": false,
+  "note": "box inferred from leader line below label",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "use_mobile.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   770,
+   765,
+   1200,
+   1110
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "box inferred from leader line below label",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "use_portable.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   530,
+   858,
+   840,
+   1110
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "box inferred, below label",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "use_mounted.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   1175,
+   588,
+   1640,
+   886
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "upper part of shared slab; split at light row y~872 inferred",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "use_under_table.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   1175,
+   868,
+   1640,
+   1115
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "lower part of shared slab; inferred",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "type_sustainers.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 5,
+  "bbox_in_page_px": [
+   735,
+   258,
+   1325,
+   915
+  ],
+  "label_ocr_text": "2 - | sustainers",
+  "verified": false,
+  "note": "overlaps drawers item in isometric view; rectangular crop may include part of drawers",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "type_drawers.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 5,
+  "bbox_in_page_px": [
+   228,
+   825,
+   1030,
+   1520
+  ],
+  "label_ocr_text": "drawers",
+  "verified": false,
+  "note": "overlaps sustainers item; may include part of it",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "size_S.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   1120,
+   760,
+   1458,
+   1030
+  ],
+  "label_ocr_text": "I5 PM TO | SoTF",
+  "verified": false,
+  "note": "composite stacked-box illustration; window around letter label S; not separable",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "size_M.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   890,
+   890,
+   1260,
+   1140
+  ],
+  "label_ocr_text": "sutr",
+  "verified": false,
+  "note": "window around M label; not separable",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "size_L.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   1140,
+   510,
+   1460,
+   810
+  ],
+  "label_ocr_text": "neights | 4F",
+  "verified": false,
+  "note": "window around L-ish label (OCR \"4p\"); uncertain",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "size_XL.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   610,
+   1020,
+   1010,
+   1299
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "window around XL label",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_flat_sustainer.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   70,
+   315,
+   455,
+   812
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "isolated blob",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_gridfinity_base_sustainer.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   451,
+   404,
+   846,
+   813
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "isolated blob",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_dividers_sustainer.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   847,
+   404,
+   1242,
+   812
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "isolated blob",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_sealed_sustainer.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   1233,
+   394,
+   1617,
+   812
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "isolated blob",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_empty_drawer.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   185,
+   690,
+   605,
+   987
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "lower row split at valley between drawers",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_gridfinity_base_drawer.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   585,
+   690,
+   997,
+   988
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "lower row split",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "interior_grid_dividers.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   977,
+   690,
+   1430,
+   988
+  ],
+  "label_ocr_text": "",
+  "verified": true,
+  "note": "lower row split",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "roof_gridfinity.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   28,
+   477,
+   620,
+   870
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "band guess by layout",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "roof_table.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   140,
+   830,
+   710,
+   1242
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "band guess",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "roof_heavyweight.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   564,
+   389,
+   1020,
+   870
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "band guess",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "roof_bowl.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   680,
+   820,
+   1250,
+   1243
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "band guess",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "roof_under_table_mount.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   990,
+   460,
+   1612,
+   870
+  ],
+  "label_ocr_text": "",
+  "verified": false,
+  "note": "band guess",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_01_06.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_01_07.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 7,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_01_08.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 8,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_01_11.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 11,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    156,
+    163,
+    171
+   ],
+   "corner_median": [
+    156,
+    163,
+    171
+   ],
+   "dark": false
+  }
+ },
+ "page_01_12.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 12,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    156,
+    163,
+    171
+   ],
+   "corner_median": [
+    156,
+    163,
+    171
+   ],
+   "dark": false
+  }
+ },
+ "page_01_13.png": {
+  "source_pdf": "01_Instructions Manual.pdf",
+  "page": 13,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    156,
+    163,
+    171
+   ],
+   "corner_median": [
+    156,
+    163,
+    171
+   ],
+   "dark": false
+  }
+ },
+ "page_02_01.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 1,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_02.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 2,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_03.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 3,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_04.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_05.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 5,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_06.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_07.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 7,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_02_08.jpg": {
+  "source_pdf": "02_Drawer Assembly.pdf",
+  "page": 8,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_01.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 1,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_02.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 2,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_03.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 3,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_04.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_05.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 5,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_06.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_03_07.jpg": {
+  "source_pdf": "03_Sustainers Assembly.pdf",
+  "page": 7,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_01.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 1,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_02.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 2,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_03.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 3,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_04.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_05.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 5,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_06.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_07.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 7,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_08.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 8,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_09.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_10.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_11.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 11,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_12.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 12,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_13.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 13,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_14.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 14,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_15.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 15,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_16.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 16,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_04_17.jpg": {
+  "source_pdf": "04_Modifications.pdf",
+  "page": 17,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_05_01.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 1,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_02.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 2,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_03.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 3,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_04.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 4,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_05.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 5,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_06.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 6,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_07.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 7,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_08.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 8,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_09.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 9,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    233,
+    233,
+    233
+   ],
+   "corner_median": [
+    233,
+    233,
+    233
+   ],
+   "dark": false
+  }
+ },
+ "page_05_10.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 10,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_05_11.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 11,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ },
+ "page_05_12.jpg": {
+  "source_pdf": "05_Mounting Instructions.pdf",
+  "page": 12,
+  "bbox_in_page_px": [
+   0,
+   0,
+   1654,
+   1654
+  ],
+  "label_ocr_text": null,
+  "verified": true,
+  "note": "whole page",
+  "page_bg": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "corner_median": [
+    255,
+    255,
+    255
+   ],
+   "dark": false
+  }
+ }
+}

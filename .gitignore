@@ -1,8 +1,5 @@
-# Paid USSA Vault Modular product files and anything derived from them. Never commit.
+# Paid USSA Vault Modular STL files. Never commit. (Thumbnails, manual images and the catalog are allowed.)
 /parts/
-/assets/thumbs/
-/assets/manual/
-/data/catalog.json
 tools/thumbs_errors.log
 .DS_Store
 __pycache__/
