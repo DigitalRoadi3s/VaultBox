@@ -55,20 +55,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/01. S Families/S3/Modules/S3 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S3/Modules/S3 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S3/Modules/S3 Module 4f.stl"
       }
      ]
     },
@@ -1813,20 +1816,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/01. S Families/S4/Modules/S4 Module 1f.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S4/Modules/S4 Module 2f.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S4/Modules/S4 Module 4F.stl"
       }
      ]
     },
@@ -3571,20 +3577,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/01. S Families/S5/Modules/S5 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S5/Modules/S5 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S5/Modules/S5 Module 4F.stl"
       }
      ]
     },
@@ -5329,20 +5338,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/01. S Families/S6/Modules/S6 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S6/Modules/S6 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S6/Modules/S6 Module 4F.stl"
       }
      ]
     },
@@ -7118,20 +7130,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/01. S Families/S7/Modules/S7 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S7/Modules/S7 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/01. S Families/S7/Modules/S7 Module 4F.stl"
       }
      ]
     },
@@ -8907,20 +8922,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/02. M Families/M3/Modules/M3 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M3/Modules/M3 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M3/Modules/M3 Module 4F.stl"
       }
      ]
     },
@@ -10648,20 +10666,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/02. M Families/M4/Modules/M4 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M4/Modules/M4 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M4/Modules/M4 Module 4F.stl"
       }
      ]
     },
@@ -12413,20 +12434,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/02. M Families/M5/Modules/M5 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M5/Modules/M5 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M5/Modules/M5 Module 4F.stl"
       }
      ]
     },
@@ -14154,20 +14178,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/02. M Families/M6/Modules/M6 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M6/Modules/M6 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M6/Modules/M6 Module 4F.stl"
       }
      ]
     },
@@ -15926,20 +15953,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/02. M Families/M7/Modules/M7 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M7/Modules/M7 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/02. M Families/M7/Modules/M7 Module 4F.stl"
       }
      ]
     },
@@ -17698,20 +17728,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/03. L Families/L3/Modules/L3 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L3/Modules/L3 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L3/Modules/L3 Module 4F.stl"
       }
      ]
     },
@@ -19466,20 +19499,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/03. L Families/L4/Modules/L4 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L4/Modules/L4 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L4/Modules/L4 Module 4F.stl"
       }
      ]
     },
@@ -21246,20 +21282,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/03. L Families/L5/Modules/L5 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L5/Modules/L5 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L5/Modules/L5 Module 4F.stl"
       }
      ]
     },
@@ -23014,20 +23053,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/03. L Families/L6/Modules/L6 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L6/Modules/L6 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L6/Modules/L6 Module 4F.stl"
       }
      ]
     },
@@ -24813,20 +24855,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/03. L Families/L7/Modules/L7 Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L7/Modules/L7 Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/03. L Families/L7/Modules/L7 Module 4F.stl"
       }
      ]
     },
@@ -26612,20 +26657,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/04. L² Families/L3²/L3² Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L3²/L3² Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L3²/L3² Module 4F.stl"
       }
      ]
     },
@@ -28398,20 +28446,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/04. L² Families/L4²/L4² Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L4²/L4² Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L4²/L4² Module 4F.stl"
       }
      ]
     },
@@ -30196,20 +30247,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/04. L² Families/L5²/L5² Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L5²/L5² Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L5²/L5² Module 4F.stl"
       }
      ]
     },
@@ -31982,20 +32036,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/04. L² Families/L6²/L6² Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L6²/L6² Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L6²/L6² Module 4F.stl"
       }
      ]
     },
@@ -33799,20 +33856,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/04. L² Families/L7²/L7² Module 1F.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L7²/L7² Module 2F.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "01. DRAWERS/04. L² Families/L7²/L7² Module 4F.stl"
       }
      ]
     },
@@ -35614,7 +35674,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/05. XL Families/XL3/Modules/XL3 Module 1F.stl",
        "default": true
       }
      ]
@@ -37083,7 +37144,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/05. XL Families/XL4/Modules/XL4 Module 1F.stl",
        "default": true
       }
      ]
@@ -38552,7 +38614,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/05. XL Families/XL5/Modules/XL5 Module 1F.stl",
        "default": true
       }
      ]
@@ -40021,7 +40084,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/05. XL Families/XL6/Modules/XL6 Module 1F.stl",
        "default": true
       }
      ]
@@ -41532,7 +41596,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/05. XL Families/XL7/Modules/XL7 Module 1F.stl",
        "default": true
       }
      ]
@@ -43043,7 +43108,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/06. XL² Families/XL3²/XL3² Module 1F.stl",
        "default": true
       }
      ]
@@ -44530,7 +44596,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/06. XL² Families/XL4²/XL4² Module 1F.stl",
        "default": true
       }
      ]
@@ -46017,7 +46084,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/06. XL² Families/XL5²/XL5² Module 1F.stl",
        "default": true
       }
      ]
@@ -47504,7 +47572,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/06. XL² Families/XL6²/XL6² Module 1F.stl",
        "default": true
       }
      ]
@@ -49033,7 +49102,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "01. DRAWERS/06. XL² Families/XL7²/XL7² Module 1F.stl",
        "default": true
       }
      ]
@@ -50564,20 +50634,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/01. S Families/S3/Modules/S3 1F Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S3/Modules/S3 2F Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S3/Modules/S3 4F Module.stl"
       }
      ]
     },
@@ -51832,20 +51905,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/01. S Families/S4/Modules/S4 1F Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S4/Modules/S4 2F Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S4/Modules/S4 4F Module.stl"
       }
      ]
     },
@@ -53100,20 +53176,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/01. S Families/S5/Modules/S5 1F Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S5/Modules/S5 2F Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S5/Modules/S5 4F Module.stl"
       }
      ]
     },
@@ -54368,20 +54447,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/01. S Families/S6/Modules/S6 1F Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S6/Modules/S6 2F Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S6/Modules/S6 4F Module.stl"
       }
      ]
     },
@@ -55690,20 +55772,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/01. S Families/S7/Modules/S7 1F Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S7/Modules/S7 2F Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/01. S Families/S7/Modules/S7 4F Module.stl"
       }
      ]
     },
@@ -57012,20 +57097,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/02. M Families/M3/Modules/M3 1F Module .stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M3/Modules/M3 2F Module .stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M3/Modules/M3 4F Module .stl"
       }
      ]
     },
@@ -58258,20 +58346,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/02. M Families/M4/Modules/M4 1F Module .stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M4/Modules/M4 2F Module .stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M4/Modules/M4 4F Module .stl"
       }
      ]
     },
@@ -59504,20 +59595,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/02. M Families/M5/Modules/M5 1F Module .stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M5/Modules/M5 2F Module .stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M5/Modules/M5 4F Module .stl"
       }
      ]
     },
@@ -60750,20 +60844,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/02. M Families/M6/Modules/M6 1F Module .stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M6/Modules/M6 2F Module .stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M6/Modules/M6 4F Module .stl"
       }
      ]
     },
@@ -62050,20 +62147,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/02. M Families/M7/Modules/M7 1F Module .stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M7/Modules/M7 2F Module .stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/02. M Families/M7/Modules/M7 4F Module .stl"
       }
      ]
     },
@@ -63350,20 +63450,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/03. L Families/L3/Modules/L3 1F Dividers Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L3/Modules/L3 2F Dividers Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L3/Modules/L3 4F Dividers Module.stl"
       }
      ]
     },
@@ -64821,20 +64924,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/03. L Families/L4/Modules/L4 1F Dividers Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L4/Modules/L4 2F Dividers Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L4/Modules/L4 4F Dividers Module.stl"
       }
      ]
     },
@@ -66292,20 +66398,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/03. L Families/L5/Modules/L5 1F Dividers Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L5/Modules/L5 2F Dividers Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L5/Modules/L5 4F Dividers Module.stl"
       }
      ]
     },
@@ -67763,20 +67872,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/03. L Families/L6/Modules/L6 1F Dividers Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L6/Modules/L6 2F Dividers Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L6/Modules/L6 4F Dividers Module.stl"
       }
      ]
     },
@@ -69288,20 +69400,23 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/03. L Families/L7/Modules/L7 1F Dividers Module.stl",
        "default": true
       },
       {
        "id": "2F",
        "label": "2F",
        "files": [],
-       "thumb": false
+       "sub": "Double height (2 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L7/Modules/L7 2F Dividers Module.stl"
       },
       {
        "id": "4F",
        "label": "4F",
        "files": [],
-       "thumb": false
+       "sub": "Quad height (4 x 1F)",
+       "thumb": "02. SUSTAINERS/03. L Families/L7/Modules/L7 4F Dividers Module.stl"
       }
      ]
     },
@@ -70811,7 +70926,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/04. XL Families/XL3/Modules/XL3 1F Dividers Module.stl",
        "default": true
       }
      ]
@@ -71747,7 +71863,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/04. XL Families/XL4/Modules/XL4 1F Dividers Module.stl",
        "default": true
       }
      ]
@@ -72683,7 +72800,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/04. XL Families/XL5/Modules/XL5 1F Dividers Module.stl",
        "default": true
       }
      ]
@@ -73619,7 +73737,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/04. XL Families/XL6/Modules/XL6 1F Dividers Module.stl",
        "default": true
       }
      ]
@@ -74621,7 +74740,8 @@
        "id": "1F",
        "label": "1F",
        "files": [],
-       "thumb": false,
+       "sub": "Single floor",
+       "thumb": "02. SUSTAINERS/04. XL Families/XL7/Modules/XL7 1F Dividers Module.stl",
        "default": true
       }
      ]

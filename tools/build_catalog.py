@@ -280,6 +280,17 @@ def finish_steps(steps):
     return steps
 
 
+HEIGHT_SUB = {"1F": "Single floor", "2F": "Double height (2 x 1F)", "4F": "Quad height (4 x 1F)"}
+
+
+def height_thumb(own, h):
+    """Preview for a height card: the module shell of that height (None -> no image)."""
+    for p in own:
+        if "Module" in os.path.basename(p) and height_of(p) == h:
+            return p
+    return False
+
+
 def make_drawer(prefix, code, famroot):
     letter, depth, sq = split_family(code)
     fam_dir = "%s/%s" % (famroot, code)
@@ -309,7 +320,7 @@ def make_drawer(prefix, code, famroot):
 
     steps.append({"id": "height", "title": "Height", "kind": "radio",
                   "help": "1F, 2F and 4F only - no 3F, to avoid gaps (manual p.6).",
-                  "choices": [choice(h, h, [], default=(h == heights[0]), thumb=False) for h in heights]})
+                  "choices": [choice(h, h, [], default=(h == heights[0]), thumb=height_thumb(own, h), sub=HEIGHT_SUB[h]) for h in heights]})
 
     # interior
     inter = [choice("empty", "Empty drawer", [], img="interior_empty_drawer", sub="Plain box, no insert", default=True, thumb=False)]
@@ -450,7 +461,7 @@ def make_sustainer(code, famroot):
     steps = []
     steps.append({"id": "height", "title": "Height", "kind": "radio",
                   "help": "1F, 2F and 4F only - no 3F, to avoid gaps (manual p.6).",
-                  "choices": [choice(h, h, [], default=(h == heights[0]), thumb=False) for h in heights]})
+                  "choices": [choice(h, h, [], default=(h == heights[0]), thumb=height_thumb(own, h), sub=HEIGHT_SUB[h]) for h in heights]})
 
     # interior
     kinds = collections.OrderedDict()
