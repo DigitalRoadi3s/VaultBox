@@ -1,95 +1,96 @@
-# Install guide
+# Install guide (Docker)
 
-You need: a purchased USSA Vault Modular package, Python 3.9+, a modern browser (Chrome, Edge or Brave for the direct "Build to a folder" option; any browser for the zip), and about as much free disk space as the package (roughly 23 GB, see below).
+VaultBox runs in a container that serves the site. The paid USSA STL files are **not** in the image or the repository: you mount your own copy at runtime. You need a purchased USSA Vault Modular package, Docker with Compose v2, and disk space for the package (about 23 GB).
 
-## 1. Get the code
+## 1. Install Docker
+
+**Linux:** install Docker Engine and the Compose plugin from <https://docs.docker.com/engine/install/> (Ubuntu/Debian: package `docker-ce` plus `docker-compose-plugin`). Optional: `sudo usermod -aG docker $USER` and log in again, otherwise prefix commands with `sudo`. Check with `docker compose version`.
+
+**macOS:** install Docker Desktop <https://docs.docker.com/desktop/setup/install/mac-install/> (or Colima + `brew install docker docker-compose`). Start it. Your home folder is shared with containers by default.
+
+**Windows 10/11:** install Docker Desktop <https://docs.docker.com/desktop/setup/install/windows-install/> with the WSL 2 backend, and start it. Use PowerShell for the commands below. Install Git from <https://git-scm.com/download/win> or download the repository as a zip.
+
+## 2. Get the code
 ```
 git clone https://github.com/DigitalRoadi3s/VaultBox.git
 cd VaultBox
 ```
 
-## 2. Create the `parts/` folder
-`parts/` is not in the repository. It must be a copy of the package's STL tree with the **same folder and file names**, because the catalog is built from those paths.
-
+## 3. Create the parts folder
+The STL tree must keep the **same folder and file names** as the package, because the catalog refers to those paths. After copying you should have:
 ```
-mkdir parts
-```
-
-Your source package should look like this (the folder name may carry a date prefix such as `261020_VAULT_USSA`):
-
-```
-<source package>/
-  01. DRAWERS/        01. S Families, 02. M Families, 03. L Families, 04. L² Families,
-                      05. XL Families, 06. XL² Families, 07. Universal
-  02. SUSTAINERS/     01. S Families ... 04. XL Families, 05. Universal
+parts/
+  01. DRAWERS/        01. S Families ... 07. Universal   (keep the ² in "L² Families" and "XL² Families")
+  02. SUSTAINERS/     01. S Families ... 05. Universal
   03. MODIFICATIONS/  Backbone, Base, Feet, Pegboard Attachment, Pull-out Handle,
                       Stationary Handle, Wall Mounts, Wheels
-  01_Instructions Manual.pdf ... 05_Mounting Instructions.pdf   (not needed here)
 ```
+The package's PDFs are not needed. Copy only the three numbered folders (STL files only is fine). Do not rename, flatten or merge anything.
 
-Copy the three numbered folders into `parts/` so you end up with `parts/01. DRAWERS/`, `parts/02. SUSTAINERS/`, `parts/03. MODIFICATIONS/`.
-
-**macOS / Linux (recommended, copies only the STLs, keeps the tree):**
+**Linux / macOS**
 ```
+mkdir parts
 SRC="/path/to/261020_VAULT_USSA"
-rsync -a --include='*/' --include='*.stl' --exclude='*' "$SRC/" parts/
+rsync -a --include='*/' --include='*.stl' --exclude='*' --prune-empty-dirs "$SRC/" parts/
 ```
-Add `--prune-empty-dirs` if you want to skip empty folders.
-
-**Windows (PowerShell):**
+**Windows (PowerShell)**
 ```
+mkdir parts
 $SRC = "C:\path\to\261020_VAULT_USSA"
 robocopy $SRC parts *.stl /E
 ```
+Or copy the three folders in your file manager.
 
-**Or by hand:** copy the folders `01. DRAWERS`, `02. SUSTAINERS` and `03. MODIFICATIONS` into `parts/` in your file manager. Do not rename, flatten or merge anything. Keep the `²` characters in `L² Families` and `XL² Families`.
+Check (expect 723 for the 261020 package):
+```
+find parts -name '*.stl' | wc -l                                   # Linux / macOS
+(Get-ChildItem parts -Recurse -Filter *.stl).Count                 # Windows PowerShell
+```
 
-Notes:
-- Do not use symlinks if you plan to run the site from a synced folder; copy real files.
-- Do not commit `parts/`. It is in `.gitignore`.
-- The package is large (about 723 STLs, ~23 GB). If disk space is tight, you can symlink `parts` to the package location instead: `ln -s "/path/to/261020_VAULT_USSA" parts` (macOS/Linux). The folder names inside must match the layout above.
+**Short on disk space?** Skip the copy and point at the package where it already is, using `PARTS_DIR` in step 4. The folder you point at must directly contain `01. DRAWERS`, `02. SUSTAINERS` and `03. MODIFICATIONS`.
 
-Check the copy:
+## 4. Configure (optional)
 ```
-find parts -name '*.stl' | wc -l      # expect 723 for the 261020 package
-ls parts
+cp .env.example .env            # Windows: copy .env.example .env
 ```
-A different package version may have a different count. If the counts differ, run `python3 tools/build_catalog.py` and read any "MISSING referenced files" lines.
+Edit `.env`:
+```
+PARTS_DIR=./parts               # or an absolute path, e.g. /data/ussa  or  C:/Users/me/ussa
+PORT=8765
+```
+On Windows use forward slashes in `PARTS_DIR`. The drive must be shared with Docker Desktop (Settings > Resources > File sharing, if not using WSL 2).
 
-## 3. Check the catalog (already included)
-`data/catalog.json`, `assets/thumbs/` and `assets/manual/` ship with the repository, so the site works as soon as `parts/` is in place. Regenerate only if your package differs or you change the rules:
+## 5. Start
 ```
-python3 tools/build_catalog.py
+docker compose up -d --build
 ```
-Expect `variants: 50 -> .../data/catalog.json`. Any `MISSING referenced files` lines mean a file name differs from what the rules expect; fix the copy or adjust `tools/build_catalog.py`.
+Open <http://localhost:8765/>. Useful commands:
+```
+docker compose logs -f          # shows a WARNING if no .stl files were found in parts
+docker compose ps               # STATUS should become "healthy"
+docker compose down             # stop
+git pull && docker compose up -d --build     # update
+```
 
-## 4. Regenerate thumbnails (optional)
-Only needed if you want fresh renders:
-```
-python3 -m venv .venv
-. .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python3 tools/render_thumbs.py
-```
-It writes `assets/thumbs/` (one PNG per STL, a minute or two on 8 cores) and skips files that already exist.
+## 6. Build a project
+Pick vaults, add them to the project, open **Project**, enter a name and press **Build**. You get `<name>.zip` with a folder of the STLs (prefixed `01_`, `02_` per module), `BOM.txt` and `Hardware.txt`. Chromium browsers also offer **Build to a folder...**, which writes straight to a folder you pick and adds a numeric suffix if the name is taken. Use **New project** to start over.
 
-## 5. Manual images
-`assets/manual/` holds images cropped from the manual (`use_*`, `roof_*`, `interior_*`, `size_*`, `type_*`) and the assembly page images. Some crops are unverified automatic guesses; replace any wrong one with a file of the same name. A missing image falls back to the STL render.
-
-## 6. Run
-```
-./serve.sh
-```
-Open <http://localhost:8765/>. Opening `index.html` directly does not work because the page has to fetch the STL files over HTTP. On Windows, run `python -m http.server 8765 --bind 127.0.0.1` in the repository folder.
-
-## 7. Build a project
-Pick vaults, add them to the project, open **Project**, enter a name and press **Build**. You get `<name>.zip` containing a folder with the STLs (prefixed `01_`, `02_` per module), `BOM.txt` and `Hardware.txt`. Chromium browsers also offer **Build to a folder...**, which writes straight to a folder you pick (use `~/Downloads`) and adds a numeric suffix if the name is taken.
+## Platform notes
+| Platform | Note |
+| --- | --- |
+| Linux | If the container cannot read `parts`, make it world-readable: `chmod -R a+rX parts` (the container runs as UID 10001). On SELinux hosts (Fedora, RHEL) change the volume in `docker-compose.yml` to `...:/app/parts:ro,z`. |
+| macOS | Folders outside your home need adding under Docker Desktop > Settings > Resources > File sharing. Bind-mounted reads can be slow with the older gRPC FUSE option; use VirtioFS. |
+| Windows | Keep `parts` on the same drive as the repo or on a shared drive. Line endings: if the container fails with `exec ... no such file`, run `git config core.autocrlf false`, re-clone, and rebuild. |
+| Remote host | The site is plain HTTP with no login. Do not expose the port to the internet; reach it over LAN/VPN. |
 
 ## Troubleshooting
 | Symptom | Cause / fix |
 | --- | --- |
-| "Could not load data/catalog.json" | Serve over HTTP (step 6); regenerate with step 3 if the file is missing |
-| Empty or grey part cards | Run step 4 |
-| Build fails with `fetch failed (404)` | A file in `parts/` is missing or renamed; recopy it exactly |
-| Zip build error about 4 GB | Use "Build to a folder..." |
-| `MISSING referenced files` in step 3 | Package version differs; compare names to the layout above |
+| Page loads, Build fails with `fetch failed (404)` | `parts` is empty, mis-pointed or a file was renamed. Check `docker compose logs`. |
+| Part cards show "no preview" | Thumbnails ship with the repo; rebuild the image (`--build`) after `git pull`. |
+| Port already in use | Set `PORT=` in `.env`. |
+| Zip build error about 4 GB | Use "Build to a folder...". |
+| Changes not showing | Hard refresh (Ctrl/Cmd+Shift+R). |
+
+## Maintainers: regenerating the catalog or thumbnails
+Needs Python 3 on the host, not Docker: `python3 tools/build_catalog.py` (reads `parts/`), and `pip install -r requirements.txt && python3 tools/render_thumbs.py`. Then rebuild the image.

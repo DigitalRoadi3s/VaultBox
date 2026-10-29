@@ -3,3 +3,4 @@
 tools/thumbs_errors.log
 .DS_Store
 __pycache__/
+.env

@@ -11,18 +11,21 @@ A dark, responsive web configurator for the **USSA Vault Modular** 3D-printable 
 - Interiors, roof types, facades, key locks, springs, latch, runner slides and guides, geared rails, facade and key caps, bases, backbones, wall mounts, pegboard attachments, feet, handles, wheel kits
 - Hardware list from the manual's counts; anything the manual does not quantify is shown as `qty not in manual`
 
-## Quick start
-1. Follow [INSTALL.md](INSTALL.md) (creates `parts/` from your package; the catalog and thumbnails are already included).
-2. `./serve.sh` and open <http://localhost:8765/>.
-3. Build downloads `<Project name>.zip`. In Chromium browsers "Build to a folder..." writes the folder straight to a directory you choose, such as `~/Downloads`.
+## Quick start (Docker)
+1. Install Docker (see [INSTALL.md](INSTALL.md) for Linux, macOS and Windows).
+2. Put your purchased STL folders in a `parts/` folder (or point `PARTS_DIR` at them).
+3. `docker compose up -d --build`, then open <http://localhost:8765/>.
+4. Build downloads `<Project name>.zip`. In Chromium browsers "Build to a folder..." writes the folder straight to a directory you choose, such as `~/Downloads`.
+
+The image contains only the site. Your STLs are mounted read-only at runtime and never copied into the image.
 
 ## Repository layout
 | Path | Purpose | In git |
 | --- | --- | --- |
 | `index.html`, `app.js`, `style.css` | The web app (vanilla JS, no dependencies) | yes |
-| `tools/build_catalog.py` | Builds `data/catalog.json` from `parts/`; all option rules live here | yes |
-| `tools/render_thumbs.py` | Renders a preview PNG for every STL | yes |
-| `serve.sh` | Local web server on port 8765 | yes |
+| `tools/build_catalog.py` | (maintainers, needs Python 3) Builds `data/catalog.json` from `parts/`; all option rules live here | yes |
+| `tools/render_thumbs.py` | (maintainers, needs Python 3 + numpy/Pillow) Renders a preview PNG for every STL | yes |
+| `Dockerfile`, `docker-compose.yml`, `docker-entrypoint.sh`, `.env.example` | Container setup (site only, no STLs) | yes |
 | `parts/` | Your STL files from the purchased package | **no** (gitignored) |
 | `assets/thumbs/` | Preview renders of the parts (`tools/render_thumbs.py`) | yes |
 | `assets/manual/` | Images cropped from the manual, plus assembly page images | yes |

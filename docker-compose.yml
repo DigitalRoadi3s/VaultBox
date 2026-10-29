@@ -1,0 +1,11 @@
+services:
+  vaultbox:
+    build: .
+    image: vaultbox:local
+    container_name: vaultbox
+    ports:
+      - "${PORT:-8765}:8765"
+    volumes:
+      # Your own purchased USSA STL package (folders 01. DRAWERS, 02. SUSTAINERS, 03. MODIFICATIONS)
+      - "${PARTS_DIR:-./parts}:/app/parts:ro"
+    restart: unless-stopped
