@@ -431,13 +431,13 @@ def make_drawer(prefix, code, famroot):
     fixed += [F(p, None, "qty not in manual; one file as named x%d" % depth if p.endswith("Guides.stl") or p.endswith("Slides.stl") else "qty not in manual (manual says 'stoppers' plural)") for p in rn]
     fixed += [F(U + "Springs.stl", None, "qty not in manual"), F(U + "Latch.stl", 1, "pushed in last, assembly p.8"),
               F(U + "Facade Cap.stl", 1), F(U + "Label.stl", 1, "slide into facade; write text with your slicer text tool")]
-    steps.append({"id": "fixed", "title": "Always included hardware parts", "kind": "fixed",
-                  "help": "Springs, latch, runner slides and guides, runner stopper, geared rails, facade cap and label are needed on every drawer.",
+    steps.append({"id": "fixed", "title": "Included automatically", "kind": "fixed",
+                  "help": "These parts are needed on every drawer and are added to your build for you. Nothing to choose here: springs, latch, runner slides and guides, runner stopper, geared rails, facade cap and label.",
                   "files": fixed})
     if sq:
         acc = [p for p in ALL if p.startswith(U + "L² Accessories/x%d " % depth)]
         if acc:
-            steps.append({"id": "acc", "title": "L² accessories", "kind": "fixed",
+            steps.append({"id": "acc", "title": "Included automatically: L² accessories", "kind": "fixed",
                           "help": "Accessory pair named for depth x%d in the Universal folder (inferred match by depth)." % depth,
                           "files": [F(p, None, "qty not in manual") for p in acc]})
     ms = [p for p in ALL if p == U + "Manual Supports/x%d.stl" % depth]
@@ -596,8 +596,8 @@ def make_sustainer(code, famroot):
         rods = U + "Rods/L-XL Rods.stl"
     fixed.append(F(rods, None, "two rods per sustainer (assembly p.4); qty of files not stated"))
     fixed.append(F(U + "Label for Sustainers.stl", 1))
-    steps.append({"id": "fixed", "title": "Always included hardware parts", "kind": "fixed",
-                  "help": "Top hinge, rods and label. The bottom hinge depends on height (below).",
+    steps.append({"id": "fixed", "title": "Included automatically", "kind": "fixed",
+                  "help": "These parts are needed on every sustainer and are added to your build for you. Nothing to choose here: top hinge, rods and label. The bottom hinge follows the height you chose (next section).",
                   "files": fixed})
     hbc = []
     for h in heights:
@@ -608,7 +608,7 @@ def make_sustainer(code, famroot):
         if b in ALL:
             hbc.append(choice("hinge_" + h, label(b), [F(b, 1, "bottom hinge on module")], when={"height": [h]}, thumb=b, default=True))
     steps.append({"id": "hinge", "title": "Bottom hinge", "kind": "radio", "required": True, "choices": hbc})
-    steps.append({"id": "hwfixed", "title": "Sustainer fasteners", "kind": "hwonly",
+    steps.append({"id": "hwfixed", "title": "Included automatically: fasteners", "kind": "hwonly",
                   "hw": [hw("M4 14 mm bolt", 16, "per module", "manual p.3 / p.17"),
                          hw("M4 10 mm bolt", 8, "per module", "manual p.3 / p.17"),
                          hw("M4 20 mm bolt", 7, "per module", "manual p.3 / p.17")]})

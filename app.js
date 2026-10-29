@@ -237,11 +237,11 @@ function renderStep(s, d) {
     s.files.forEach(f => {
       const i = h('img', { alt: '' });
       setImg(i, [thumbUrl(f.p)]);
-      l.append(h('div', { class: 'fx', onmouseenter: () => setHero([thumbUrl(f.p)], f.l) }, h('div', { class: 'im' }, i), h('div', { class: 'tx' }, f.l, f.n && h('span', {}, f.n), f.q != null && h('span', {}, 'x' + f.q))));
+      l.append(h('div', { class: 'fx', onmouseenter: () => setHero([thumbUrl(f.p)], f.l + ' (included automatically)') }, h('span', { class: 'auto' }, 'Included automatically'), h('div', { class: 'im' }, i), h('div', { class: 'tx' }, h('b', {}, f.l), f.n && h('span', {}, f.n), f.q != null && h('span', {}, 'x' + f.q))));
     });
     g.append(l);
   } else if (s.kind === 'hwonly') {
-    g.append(hwTable(s.hw));
+    g.append(h('p', { class: 'help' }, 'Hardware added to your Hardware.txt automatically.'), hwTable(s.hw));
   }
   return g;
 }

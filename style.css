@@ -94,3 +94,7 @@ input:focus{outline:2px solid var(--acc2);border-color:var(--acc)}
 }
 
 .im.noimg{position:relative}.im.noimg::after{content:'no preview';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:12px}
+
+.fx{position:relative;border-color:#2c4a36}
+.fx .auto{position:absolute;top:6px;left:6px;z-index:1;background:rgba(76,195,138,.16);color:var(--ok);border:1px solid rgba(76,195,138,.5);border-radius:99px;padding:1px 8px;font-size:10px;letter-spacing:.02em}
+.fx .tx b{display:block;font-weight:600}
