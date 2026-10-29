@@ -79,13 +79,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/01. S Families/S3/Boxes/S3 Box 1F.stl",
        "default": true,
@@ -95,9 +95,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate.stl",
        "noImgModes": [
@@ -105,12 +105,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/01. S Families/S3/Gridfinity Baseplate/S3 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -121,7 +121,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -192,8 +192,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -659,9 +658,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -1888,13 +1888,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/01. S Families/S4/Boxes/S4 Box 1F.stl",
        "default": true,
@@ -1904,9 +1904,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate.stl",
        "noImgModes": [
@@ -1914,12 +1914,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/01. S Families/S4/Gridfinity Baseplate/S4 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -1930,7 +1930,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -2001,8 +2001,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -2468,9 +2467,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -3697,13 +3697,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/01. S Families/S5/Boxes/S5 Box 1F.stl",
        "default": true,
@@ -3713,9 +3713,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate.stl",
        "noImgModes": [
@@ -3723,12 +3723,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/01. S Families/S5/Gridfinity Baseplate/S5 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -3739,7 +3739,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -3810,8 +3810,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -4277,9 +4276,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -5506,13 +5506,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/01. S Families/S6/Boxes/S6 Box 1F.stl",
        "default": true,
@@ -5522,9 +5522,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate.stl",
        "noImgModes": [
@@ -5532,12 +5532,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/01. S Families/S6/Gridfinity Baseplate/S6 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -5548,7 +5548,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -5619,8 +5619,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -6086,9 +6085,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -7346,13 +7346,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/01. S Families/S7/Boxes/S7 Box 1F.stl",
        "default": true,
@@ -7362,9 +7362,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate.stl",
        "noImgModes": [
@@ -7372,12 +7372,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/01. S Families/S7/Gridfinity Baseplate/S7 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -7388,7 +7388,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -7459,8 +7459,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -7926,9 +7925,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -9186,13 +9186,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/02. M Families/M3/Boxes/M3 Box 1F.stl",
        "default": true,
@@ -9202,9 +9202,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
        "noImgModes": [
@@ -9212,12 +9212,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/02. M Families/M3/Gridfinity Baseplate/M3 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -9228,7 +9228,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -9275,8 +9275,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -9742,9 +9741,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -10966,13 +10966,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/02. M Families/M4/Boxes/M4 Box 1F.stl",
        "default": true,
@@ -10982,9 +10982,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate.stl",
        "noImgModes": [
@@ -10992,12 +10992,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/02. M Families/M4/Gridfinity Baseplate/M4 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -11008,7 +11008,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -11095,8 +11095,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -11562,9 +11561,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -12786,13 +12786,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/02. M Families/M5/Boxes/M5 Box 1F.stl",
        "default": true,
@@ -12802,9 +12802,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate.stl",
        "noImgModes": [
@@ -12812,12 +12812,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/02. M Families/M5/Gridfinity Baseplate/M5 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -12828,7 +12828,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -12875,8 +12875,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -13342,9 +13341,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -14566,13 +14566,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/02. M Families/M6/Boxes/M6 Box 1F.stl",
        "default": true,
@@ -14582,9 +14582,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate.stl",
        "noImgModes": [
@@ -14592,12 +14592,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/02. M Families/M6/Gridfinity Baseplate/M6 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -14608,7 +14608,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -14655,8 +14655,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -15122,9 +15121,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -16377,13 +16377,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/02. M Families/M7/Boxes/M7 Box 1F.stl",
        "default": true,
@@ -16393,9 +16393,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate.stl",
        "noImgModes": [
@@ -16403,12 +16403,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/02. M Families/M7/Gridfinity Baseplate/M7 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -16419,7 +16419,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -16466,8 +16466,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -16933,9 +16932,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -18188,13 +18188,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L3/Boxes/L3 Box 1F.stl",
        "default": true,
@@ -18204,9 +18204,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
        "noImgModes": [
@@ -18214,12 +18214,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -18230,7 +18230,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -18253,8 +18253,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -18720,9 +18719,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -19983,13 +19983,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L4/Boxes/L4 Box 1F.stl",
        "default": true,
@@ -19999,9 +19999,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
        "noImgModes": [
@@ -20009,12 +20009,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -20025,7 +20025,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -20072,8 +20072,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -20539,9 +20538,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -21802,13 +21802,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L5/Boxes/L5 Box 1F.stl",
        "default": true,
@@ -21818,9 +21818,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
        "noImgModes": [
@@ -21828,12 +21828,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -21844,7 +21844,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -21867,8 +21867,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -22334,9 +22333,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -23597,13 +23597,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L6/Boxes/L6 Box 1F.stl",
        "default": true,
@@ -23613,9 +23613,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
        "noImgModes": [
@@ -23623,12 +23623,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -23639,7 +23639,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -23662,8 +23662,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -24129,9 +24128,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -25423,13 +25423,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L7/Boxes/L7 Box 1F.stl",
        "default": true,
@@ -25439,9 +25439,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
        "noImgModes": [
@@ -25449,12 +25449,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -25465,7 +25465,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -25488,8 +25488,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -25955,9 +25954,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -27249,13 +27249,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L3/Boxes/L3 Box 1F.stl",
        "default": true,
@@ -27265,9 +27265,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
        "noImgModes": [
@@ -27275,12 +27275,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L3/Gridfinity Baseplate/L3 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -27291,7 +27291,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -27314,8 +27314,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -27781,9 +27780,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -29062,13 +29062,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L4/Boxes/L4 Box 1F.stl",
        "default": true,
@@ -29078,9 +29078,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
        "noImgModes": [
@@ -29088,12 +29088,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L4/Gridfinity Baseplate/L4 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -29104,7 +29104,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -29151,8 +29151,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -29618,9 +29617,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -30899,13 +30899,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L5/Boxes/L5 Box 1F.stl",
        "default": true,
@@ -30915,9 +30915,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
        "noImgModes": [
@@ -30925,12 +30925,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L5/Gridfinity Baseplate/L5 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -30941,7 +30941,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -30964,8 +30964,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -31431,9 +31430,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -32712,13 +32712,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L6/Boxes/L6 Box 1F.stl",
        "default": true,
@@ -32728,9 +32728,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
        "noImgModes": [
@@ -32738,12 +32738,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L6/Gridfinity Baseplate/L6 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -32754,7 +32754,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -32777,8 +32777,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -33244,9 +33243,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -34556,13 +34556,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/03. L Families/L7/Boxes/L7 Box 1F.stl",
        "default": true,
@@ -34572,9 +34572,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
        "noImgModes": [
@@ -34582,12 +34582,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/03. L Families/L7/Gridfinity Baseplate/L7 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -34598,7 +34598,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -34621,8 +34621,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -35088,9 +35087,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -36384,13 +36384,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL3/Boxes/XL3 Back Panel.stl",
        "default": true,
@@ -36400,9 +36400,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
        "noImgModes": [
@@ -36410,12 +36410,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -36426,7 +36426,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -36449,8 +36449,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -36916,9 +36915,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -37878,13 +37878,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL4/Boxes/XL4 Back Panel.stl",
        "default": true,
@@ -37894,9 +37894,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
        "noImgModes": [
@@ -37904,12 +37904,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -37920,7 +37920,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -37943,8 +37943,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -38410,9 +38409,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -39372,13 +39372,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL5/Boxes/XL5 Back Panel.stl",
        "default": true,
@@ -39388,9 +39388,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
        "noImgModes": [
@@ -39398,12 +39398,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -39414,7 +39414,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -39437,8 +39437,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -39904,9 +39903,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -40866,13 +40866,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL6/Boxes/XL6 Box 1F Part 1.stl",
        "default": true,
@@ -40882,9 +40882,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
        "noImgModes": [
@@ -40892,12 +40892,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -40908,7 +40908,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -40936,8 +40936,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -41403,9 +41402,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -42395,13 +42395,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL7/Boxes/XL7 Box 1F Part 1.stl",
        "default": true,
@@ -42411,9 +42411,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
        "noImgModes": [
@@ -42421,12 +42421,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -42437,7 +42437,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -42465,8 +42465,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -42932,9 +42931,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -43924,13 +43924,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL3/Boxes/XL3 Back Panel.stl",
        "default": true,
@@ -43940,9 +43940,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
        "noImgModes": [
@@ -43950,12 +43950,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL3/Gridfinity Baseplate/XL3 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -43966,7 +43966,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -43989,8 +43989,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -44456,9 +44455,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -45436,13 +45436,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL4/Boxes/XL4 Back Panel.stl",
        "default": true,
@@ -45452,9 +45452,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
        "noImgModes": [
@@ -45462,12 +45462,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL4/Gridfinity Baseplate/XL4 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -45478,7 +45478,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -45501,8 +45501,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -45968,9 +45967,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -46948,13 +46948,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL5/Boxes/XL5 Back Panel.stl",
        "default": true,
@@ -46964,9 +46964,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
        "noImgModes": [
@@ -46974,12 +46974,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL5/Gridfinity Baseplate/XL5 Baseplate.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -46990,7 +46990,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -47013,8 +47013,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -47480,9 +47479,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -48460,13 +48460,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL6/Boxes/XL6 Box 1F Part 1.stl",
        "default": true,
@@ -48476,9 +48476,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
        "noImgModes": [
@@ -48486,12 +48486,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL6/Gridfinity Baseplate/XL6 Baseplate Part 1.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -48502,7 +48502,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -48530,8 +48530,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -48997,9 +48996,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },
@@ -50007,13 +50007,13 @@
      "id": "interior",
      "title": "Interior",
      "kind": "radio",
-     "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
+     "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
      "choices": [
       {
        "id": "empty",
        "label": "Empty drawer",
        "files": [],
-       "sub": "Plain box, no insert",
+       "sub": "Plain box, nothing added",
        "img": "interior_empty_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL7/Boxes/XL7 Box 1F Part 1.stl",
        "default": true,
@@ -50023,9 +50023,9 @@
       },
       {
        "id": "gridbase",
-       "label": "Gridfinity baseplate (no dividers)",
+       "label": "Gridfinity baseplate",
        "files": [],
-       "sub": "Baseplate included (plain preselected)",
+       "sub": "Baseplate for Gridfinity bins (plain preselected)",
        "img": "interior_gridfinity_base_drawer",
        "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
        "noImgModes": [
@@ -50033,12 +50033,12 @@
        ]
       },
       {
-       "id": "gridwithdiv",
-       "label": "Gridfinity baseplate + grid dividers",
+       "id": "griddiv",
+       "label": "Grid dividers",
        "files": [],
-       "sub": "Baseplate included (plain preselected) plus a divider set",
+       "sub": "Dividers plug into the holes in the box floor. No baseplate needed",
        "img": "interior_grid_dividers",
-       "thumb": "01. DRAWERS/05. XL Families/XL7/Gridfinity Baseplate/XL7 Baseplate Part 1.stl",
+       "thumb": "01. DRAWERS/07. Universal/Grid Dividers/20MM TALL/10-S, x3.stl",
        "noImgModes": [
         "undertable"
        ]
@@ -50049,7 +50049,7 @@
      "id": "gridbase",
      "title": "Gridfinity baseplate",
      "kind": "radio",
-     "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
+     "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one. Under-table drawers have no Gridfinity roof or top handle, so only handle-free baseplates are offered.",
      "choices": [
       {
        "id": "g0",
@@ -50077,8 +50077,7 @@
      ],
      "when": {
       "interior": [
-       "gridbase",
-       "gridwithdiv"
+       "gridbase"
       ]
      }
     },
@@ -50544,9 +50543,10 @@
        ]
       }
      ],
+     "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
      "when": {
       "interior": [
-       "gridwithdiv"
+       "griddiv"
       ]
      }
     },

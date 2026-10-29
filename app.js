@@ -472,7 +472,7 @@ async function buildFolder() {
 /* ------------------------------------------------------------ boot */
 async function boot() {
   try {
-    const r = await fetch('data/catalog.json');
+    const r = await fetch('data/catalog.json?v=7');
     if (!r.ok) throw new Error(r.status);
     CAT = await r.json();
   } catch (e) {

@@ -322,40 +322,37 @@ def make_drawer(prefix, code, famroot):
                   "help": "1F, 2F and 4F only - no 3F, to avoid gaps (manual p.6).",
                   "choices": [choice(h, h, [], default=(h == heights[0]), thumb=height_thumb(own, h), sub=HEIGHT_SUB[h]) for h in heights]})
 
-    # interior
-    inter = [choice("empty", "Empty drawer", [], img="interior_empty_drawer", sub="Plain box, no insert", default=True, thumb=False)]
-    gb = []
-    if bases:
-        gb = [choice("gb_%s" % i, label(p), [F(p, 1)], img="interior_gridfinity_base_drawer", sub="Gridfinity baseplate inside the box") for i, p in enumerate(bases)]
+    # interior (manual p.9 items 5, 6, 7 are three separate interiors; the grid divider
+    # instructions (Grid Dividers/01. INSTRUCTIONS) show dividers plugging into the holes in the
+    # drawer box floor, so dividers do NOT need a Gridfinity baseplate)
     gd = []
     for hh, folder in (("20mm", "20MM TALL"), ("34.5mm", "34.5MM TALL (full height of 1F drawers)"), ("82.5mm", "82.5MM TALL (full height of 2F drawers)")):
         fl = [p for p in ALL if p.startswith("01. DRAWERS/07. Universal/Grid Dividers/%s/" % folder)]
         gd.append((hh, fl))
+    ichoices = [choice("empty", "Empty drawer", [], img="interior_empty_drawer", sub="Plain box, nothing added", default=True, thumb=False),
+                choice("griddiv", "Grid dividers", [], img="interior_grid_dividers",
+                       sub="Dividers plug into the holes in the box floor. No baseplate needed", thumb=False)]
+    if bases:
+        ichoices.insert(1, choice("gridbase", "Gridfinity baseplate", [], img="interior_gridfinity_base_drawer",
+                                  sub="Baseplate for Gridfinity bins (plain preselected)", thumb=False))
     steps.append({"id": "interior", "title": "Interior", "kind": "radio",
-                  "help": "Manual p.9: empty drawer, Gridfinity base, or Gridfinity base with grid dividers.",
-                  "choices": inter + gb + [choice("gridwithdiv", "Gridfinity base + grid dividers", [], img="interior_grid_dividers",
-                                                   sub="Pick a baseplate and divider set below", thumb=False)] if bases else inter})
+                  "help": "Manual p.9 lists these as three separate interiors: empty drawer, Gridfinity base, grid dividers. Grid dividers plug straight into the drawer floor.",
+                  "choices": ichoices})
     if bases:
         bg = [sorted(g) for g in groups(bases).values()]
         plain_i = next((i for i, g in enumerate(bg) if not re.search(r"handle", stem(g[0]), re.I) or re.search(r"no[_ ]handle", stem(g[0]), re.I)), 0)
         steps.append({"id": "gridbase", "title": "Gridfinity baseplate", "kind": "radio",
+                      "help": "The baseplate is included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
                       "choices": [choice("g%i" % i, re.sub(r"\s*Part \d", "", label(g[0])) + (" (2 parts)" if len(g) > 1 else ""), [F(p, 1) for p in g], img="interior_gridfinity_base_drawer", thumb=g[0], default=(i == plain_i), sub=("Plain, no handles" if i == plain_i else None)) for i, g in enumerate(bg)],
-                      "when": {"interior": ["gridwithdiv"]}})
-        # drop the per-baseplate choices from the main interior step (baseplate chosen in its own step)
-        steps[1]["choices"] = inter + [choice("gridbase", "Gridfinity baseplate (no dividers)", [], img="interior_gridfinity_base_drawer", sub="Baseplate included (plain preselected)", thumb=False),
-                                       choice("gridwithdiv", "Gridfinity baseplate + grid dividers", [], img="interior_grid_dividers", sub="Baseplate included (plain preselected) plus a divider set", thumb=False)]
-        steps.pop(2)
-        steps.append({"id": "gridbase", "title": "Gridfinity baseplate", "kind": "radio",
-                      "help": "The baseplate is always included with this interior. The plain version (no handles) is preselected; choose a 1-handle or 2-handle version if you want one.",
-                      "choices": [choice("g%i" % i, re.sub(r"\s*Part \d", "", label(g[0])) + (" (2 parts)" if len(g) > 1 else ""), [F(p, 1) for p in g], img="interior_gridfinity_base_drawer", thumb=g[0], default=(i == plain_i), sub=("Plain, no handles" if i == plain_i else None)) for i, g in enumerate(bg)],
-                      "when": {"interior": ["gridbase", "gridwithdiv"]}})
-        divchoices = []
-        for hh, fl in gd:
-            divchoices.append(choice("d" + hh.replace(".", "_"), "Grid dividers %s tall" % hh, [F(p, None, "grid divider piece; count per set not in manual (file name suffix x# is the size/qty as named)") for p in fl],
-                                     img="interior_grid_dividers", sub="%d pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F" % len(fl),
-                                     thumb=fl[0] if fl else False))
-        steps.append({"id": "griddiv", "title": "Grid dividers", "kind": "radio", "choices": divchoices,
-                      "when": {"interior": ["gridwithdiv"]}})
+                      "when": {"interior": ["gridbase"]}})
+    divchoices = []
+    for hh, fl in gd:
+        divchoices.append(choice("d" + hh.replace(".", "_"), "Grid dividers %s tall" % hh, [F(p, None, "grid divider piece; count per set not in manual (file name suffix x# is the size/qty as named)") for p in fl],
+                                 img="interior_grid_dividers", sub="%d pieces. Full height: 34.5 mm for 1F, 82.5 mm for 2F" % len(fl),
+                                 thumb=fl[0] if fl else False))
+    steps.append({"id": "griddiv", "title": "Grid dividers", "kind": "radio", "choices": divchoices,
+                  "help": "Pick the divider height. Print a full-width divider (10-S, 18-M, 26-L, 32-XL) plus two border parts, or build smaller runs - see the manual's divider instructions.",
+                  "when": {"interior": ["griddiv"]}})
 
     # box
     for h in heights:
@@ -457,7 +454,9 @@ def make_drawer(prefix, code, famroot):
             for c in st["choices"]:
                 if c["id"] == "empty" and c.get("thumb") is False:
                     c["thumb"] = boxes[0]
-                if c["id"] in ("gridbase", "gridwithdiv") and bases and c.get("thumb") is False:
+                if c["id"] == "griddiv" and c.get("thumb") is False and gd and gd[0][1]:
+                    c["thumb"] = gd[0][1][0]
+                if c["id"] == "gridbase" and bases and c.get("thumb") is False:
                     c["thumb"] = bases[0]
         if st["id"] == "gridbase":
             for c in st["choices"]:
